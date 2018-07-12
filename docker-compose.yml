@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  tomcatmod:
+    image: airapp/tomcat:8.5
+    ports:
+      - "8090:8090"
+ #  depends_on:
+ #    - redis
+ #redis:
+ #  image: redis:3.2.0
